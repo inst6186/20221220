@@ -85,9 +85,9 @@ C:\DevTools\pmd\bin\cpd --minimum-tokens 100 --files ./src --language cpp --form
 https://github.com/curl/curl
 
 ## 구성
-빌드: dir
-Cppcheck
-CPD: Tocken 50
-Lizard
+- 빌드: dir
+- Cppcheck
+- CPD: Tocken 50
+- Lizard
 
 실행 -> 결과 정상 표시까지.
