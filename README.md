@@ -51,7 +51,13 @@ System.setProperty("hudson.model.DirectoryBrowserSupport.CSP", "")
 pip install lizard
 ```
 
-## 실행 명령
+## 명령줄 실행 명령
+```
+lizard.exe -C 10 --csv > lizard_result.csv
+```
+
+
+## Jenkins 실행 명령
 ```
 lizard ./src -C 10 -L 80 --xml > lizard.xml
 ```
