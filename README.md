@@ -77,7 +77,7 @@ cpd.bat --minimum-tokens 100 --files . --language cpp --format csv > result.csv
 
 ## Jenkins 실행 명령
 ```
-C:\DevTools\pmd\bin\cpd --minimum-tokens 100 --files ./src --language cpp --format xml > cpd.xml || exit 0
+C:\DevTools\pmd\bin\cpd --minimum-tokens 100 --files src --language cpp --format xml > cpd.xml || exit 0
 ```
 
 # 실습
