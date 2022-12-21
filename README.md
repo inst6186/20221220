@@ -80,4 +80,14 @@ cpd.bat --minimum-tokens 100 --files . --language cpp --format csv > result.csv
 C:\DevTools\pmd\bin\cpd --minimum-tokens 100 --files ./src --language cpp --format xml > cpd.xml || exit 0
 ```
 
+# 실습
+## 소스코드 위치
+https://github.com/curl/curl
 
+## 구성
+빌드: dir
+Cppcheck
+CPD: Tocken 50
+Lizard
+
+실행 -> 결과 정상 표시까지.
