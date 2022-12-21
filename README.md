@@ -8,6 +8,9 @@ cppcheck  --enable=all --inconclusive --xml --xml-version=2 src 2> cppcheck.xml
 ```
 
 ## MISRA 분석을 위한 실행
+### 사전조건
+Python 설치
+
 ### Misra_2012.txt 파일 복사
 - 위치: C:\DevTools\misra
 
