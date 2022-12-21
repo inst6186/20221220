@@ -56,6 +56,9 @@ pip install lizard
 lizard.exe -C 10 --csv > lizard_result.csv
 ```
 
+![image](https://user-images.githubusercontent.com/8405564/208821320-26f0c90f-7f4d-43ba-b7ac-5c86c2852a82.png)
+
+
 
 ## Jenkins 실행 명령
 ```
