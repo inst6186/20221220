@@ -71,9 +71,9 @@ or
 
 # CPD
 ### 명령줄 실행
-'''
+```
 cpd.bat --minimum-tokens 100 --files . --language cpp --format csv > result.csv
-'''
+```
 
 ## Jenkins 실행 명령
 ```
