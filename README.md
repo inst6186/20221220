@@ -44,3 +44,18 @@ cppcheck.exe --addon="C:\DevTools\misra\misra.json"  --xml --xml-version=2 . 2> 
 ```
 System.setProperty("hudson.model.DirectoryBrowserSupport.CSP", "")
 ```
+
+# Lizard
+## 설치
+```
+pip install lizard
+```
+
+## 실행 명령
+```
+lizard ./src -C 10 -L 80 --xml > lizard.xml
+```
+or
+```
+"C:\Users\cypark\AppData\Local\Programs\Python\Python310\Scripts\lizard" ./src -C 10 -L 80 --xml > lizard.xml
+```
