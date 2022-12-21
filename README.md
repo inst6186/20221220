@@ -30,3 +30,9 @@ Python 설치
 ```
 cppcheck.exe --addon="C:\DevTools\misra\misra.json"  --xml --xml-version=2 . 2> cppcheck.xml
 ```
+
+## Doxygen
+### 명령줄 실행
+```
+"c:\Program Files\doxygen\bin\doxygen.exe" Doxyfile
+```
