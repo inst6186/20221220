@@ -59,7 +59,6 @@ lizard.exe -C 10 --csv > lizard_result.csv
 ![image](https://user-images.githubusercontent.com/8405564/208821320-26f0c90f-7f4d-43ba-b7ac-5c86c2852a82.png)
 
 
-
 ## Jenkins 실행 명령
 ```
 lizard ./src -C 10 -L 80 --xml > lizard.xml
@@ -68,3 +67,17 @@ or
 ```
 "C:\Users\cypark\AppData\Local\Programs\Python\Python310\Scripts\lizard" ./src -C 10 -L 80 --xml > lizard.xml
 ```
+
+
+# CPD
+### 명령줄 실행
+'''
+cpd.bat --minimum-tokens 100 --files . --language cpp --format csv > result.csv
+'''
+
+## Jenkins 실행 명령
+```
+C:\DevTools\pmd\bin\cpd --minimum-tokens 100 --files ./src --language cpp --format xml > cpd.xml || exit 0
+```
+
+
